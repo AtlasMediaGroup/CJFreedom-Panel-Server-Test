@@ -1,2 +1,2 @@
-# CJFreedom-Panel-Server-Test
-This script tests whether your server can run the CJFreedom Panel
+# CJFreedom Server Requirements Test
+Simply upload the script to your server and load it up in your browser.
