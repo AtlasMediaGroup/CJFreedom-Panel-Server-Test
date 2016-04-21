@@ -92,6 +92,15 @@ class CjTest
 			return true;
 		}
 	}
+	
+	public function checkIonCube()
+	{
+	    if (!extension_loaded('ionCube Loader')) {
+	        return false;
+	    } else {
+	        return true;
+	    }
+	}
 }
 
 $cj = new CjTest();
@@ -192,6 +201,11 @@ $cj = new CjTest();
         <tr>
             <td>mod_rewrite</td>
             <td><?php if ($cj->checkModRewrite()) { echo '<span style="color: green;">Yes</span>'; } else { echo '<span style="color: red;">No</span>'; } ?></td>
+        </tr>
+        
+        <tr>
+        <td>ionCube Loader</td>
+        <td><?php if (!$cj->checkIonCube()) { echo '<span style="color: green;">Yes</span>'; } else { echo '<span style="color: red;">No</span>'; }?></td>
         </tr>
     </tbody>
 </table>
