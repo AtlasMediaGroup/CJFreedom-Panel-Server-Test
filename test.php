@@ -28,7 +28,7 @@ class CjTest
 
 	public function __construct()
 	{
-		if (!$this->checkPhp() OR !$this->checkPdoSql() OR !$this->checkSsl() OR !$this->checkGd() OR !$this->checkPdo() OR !$this->checkModRewrite())
+		if (!$this->checkPhp() OR !$this->checkPdoSql() OR !$this->checkSsl() OR !$this->checkGd() OR !$this->checkPdo() OR !$this->checkModRewrite() OR !$this->checkIonCube())
 		{
 			$this->allClear = false;
 		} else {
