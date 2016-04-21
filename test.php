@@ -6,7 +6,7 @@
 * @copyright The CJFreedom Team 2016
 * @author Matt Kent
 *
-* @license GNU Public License Version 3
+* @license Superior Development License
 *
 * @codingStandardsIgnoreFile
 *
